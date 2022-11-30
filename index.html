@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="ageCard">
+        <form >
+            <h1>Age Calculator</h1>
+            
+            <div class="date area">
+                <div class="input field">
+                    <label for="">Date</label>
+                    <div><input type="text" name="date" id="date" placeholder="dd"/></div>
+                </div>
+                <div class="input field">
+                    <label for="">Month</label>
+                    <div><input type="text" name="month" id="month" placeholder="mm"/></div>
+                </div>
+                <div class="input field">
+                    <label for="">Year</label>
+                    <div><input type="text" name="year" id="year" placeholder="yyyy"/></div>
+                </div>
+            </div>
+            <div><input type="button" value="Submit" name="submit" onclick="age()" class="button"/></div>
+            <p class="result" id="age"></p>
+        </form>
+        
+
+    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
