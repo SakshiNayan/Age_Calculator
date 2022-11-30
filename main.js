@@ -10,7 +10,7 @@ function age(){
 
     var month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-    if(d1 == null || m1== null || y1 == null){
+    if(d1 == null || d1=='', m1== null || m2 =='', y1 == null || y1==''){
         document.getElementById('age').innerHTML ='Please provide Valide Input'
 
         return false;
